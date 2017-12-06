@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Telefot</string>  
+    
+    <string name="dialog_yes">Oui</string> 
+    <string name="dialog_no">Non</string>   
+    
+<!-- ECALL -->
+    
+    <string name="ecall_confirm_msg">Etes-vous certain de vouloir effectuer un ECall ?</string>
+    <string name="alert_msg">Etes-vous certain de vouloir envoyer cette alerte ?</string>
+    
+<!-- CONNECTIVITY -->
+    
+	<string name="location_disabled">Aucune source de localisation active !</string>
+    <string name="location_enabled_gps">Localisé grâce à la puce GPS</string>
+    <string name="location_enabled_gsm">Localisé grâce à la puce GSM</string>
+    <string name="internet_unavailable">Réseau internet indisponible !</string>
+    <string name="internet_available">Réseau internet disponible</string>
+
+<!-- 	INCIDENTS 	-->
+
+    <string-array name="incidents_names">
+        <item>Vue d\'un accident</item>
+        <item>Objet sur la route</item>
+        <item>Malaise</item>
+        <item>Panne</item>
+    </string-array>
+    
+    <string-array name="incidents_refs">
+        <item>al_vu_acc</item>
+        <item>al_objet</item>
+        <item>al_malaise</item>
+        <item>al_panne</item>
+    </string-array>
+
+<!-- 	ALERTS	 -->
+    
+    <string-array name="alerts_names">
+        <item>Présence de bouchons</item>
+        <item>Chute de neige</item>
+        <item>Vent fort</item>
+        <item>Brouillard</item>
+    </string-array>
+    
+    <string-array name="alerts_refs">
+        <item>al_bouchons</item>
+        <item>al_chuteDeNeige</item>
+        <item>al_vent</item>
+        <item>al_brouillard</item>
+    </string-array>
+    
+</resources>

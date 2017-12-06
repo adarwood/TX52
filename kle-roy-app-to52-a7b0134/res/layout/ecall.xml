@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:gravity="center"
+	android:textColor="#000000"
+  	android:padding="28dp" >
+		
+	<Button 
+		android:text = "E-CALL"
+		android:id="@+id/buttonCall" 
+        android:background="@drawable/btn_ecall_shape"
+        style="@style/ButtonText" />
+  	
+	<LinearLayout
+		android:id="@+id/separationEcall"
+     	android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+	 	android:layout_below = "@+id/buttonCall"
+	 	android:layout_marginTop="25dp"
+	 	android:layout_marginBottom="25dp" >	
+      	
+		<ImageView
+	      	android:layout_width="fill_parent"
+	       	android:layout_height="wrap_content" 
+	       	android:src = "@drawable/separation"
+	     />
+	     
+	</LinearLayout>
+	
+	<RelativeLayout
+     	android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+	 	android:layout_below = "@+id/separationEcall"
+	    android:background = "@drawable/bg_infos_shape"
+	    android:padding = "10dp" >
+	 		
+	 		
+	 	<LinearLayout
+			android:id="@+id/infos_connection"
+	 		android:layout_width="fill_parent"
+	 		android:layout_height="wrap_content">
+	 		
+	 		<ImageView
+		      	android:layout_width="wrap_content"
+		       	android:layout_height="wrap_content" 
+		       	android:src = "@drawable/connection_off"
+		    	android:gravity="right|center_vertical"
+		    	android:id="@+id/img_infos_network"
+		     />
+	 		
+			<TextView 
+	     		android:layout_width="wrap_content"
+	      		android:layout_height="wrap_content"
+				style="@style/infosOff"
+				android:id="@+id/infos_network"
+				android:text="@string/internet_unavailable"/>
+			
+		</LinearLayout>
+
+	 	<LinearLayout
+			android:id="@+id/infos_satellite"
+	 		android:layout_width="fill_parent"
+	 		android:layout_height="wrap_content"
+	 		android:layout_below="@+id/infos_connection"
+	 		android:layout_marginTop="7dp">
+	 		
+	 		<ImageView
+		      	android:layout_width="wrap_content"
+		       	android:layout_height="wrap_content" 
+		       	android:src = "@drawable/satellite_on"
+		    	android:gravity="right|center_vertical"
+		    	android:id="@+id/img_infos_location"
+		     />
+	 		
+			<TextView 
+	     		android:layout_width="wrap_content"
+	      		android:layout_height="wrap_content"
+				style="@style/infosOn"
+				android:id="@+id/infos_location" android:text="@string/location_enabled_gps"/>
+			
+		</LinearLayout>
+	     
+	</RelativeLayout>
+    
+</RelativeLayout>

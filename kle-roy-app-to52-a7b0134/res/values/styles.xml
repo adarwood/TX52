@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="infosOn">
+    <item name="android:paddingLeft">15dp</item>
+    <item name="android:textColor">#3d3d3d</item>
+    <item name="android:textSize">12dp</item>
+    <item name="android:shadowColor">#FFFFFF</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">1</item>
+  </style>
+  
+  <style name="infosOff">
+    <item name="android:paddingLeft">15dp</item>
+    <item name="android:textColor">#b3b3b3</item>
+    <item name="android:textSize">12dp</item>
+    <item name="android:shadowColor">#FFFFFF</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">1</item>
+  </style>
+  
+  <style name="ButtonText">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_margin">3dp</item>
+    <item name="android:textSize">25dp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:shadowColor">#482803</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">1</item>
+  </style>
+  
+</resources>
